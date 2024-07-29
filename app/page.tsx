@@ -29,16 +29,22 @@ export default function Home() {
               src="/icon.png"
               alt="Logo"
             />
+
             <h2 className=" md:text-2xl font-semibold text-emerald-500 ">
               No Junk
             </h2>
           </div>
           <div className=" flex gap-5 items-center">
-            <FaGithub
-              size={23}
-              color="#10b981"
-              className=" hover:-translate-y-2 transition-all"
-            />
+            <Link
+              href="https://github.com/yeabnoah/No-Junk"
+              className=" cursor-pointer"
+            >
+              <FaGithub
+                size={23}
+                color="#10b981"
+                className=" hover:-translate-y-2 transition-all"
+              />
+            </Link>
             <Button className=" flex gap-3 text-emerald-500 md:text-xl md:py-5 py-2 hover:-translate-y-2 transition-all rounded">
               <Link href="https://t.me/technerd345"> Find Me</Link>
 
@@ -59,10 +65,12 @@ export default function Home() {
                   posts make the cut. Say goodbye to clutter and endless
                   scrolling; at No Junk, it&aposs all quality, all the time.
                 </h2>
-                <Button className=" justify-start hover:bg-emerald-500 hover:-translate-y-2 transition-all hover:text-background flex gap-5 items-center mt-10  border-emerald-500 border rounded md:text-xl text-sm md:py-7 py-5">
-                  <FaCloudDownloadAlt size={30} />
-                  Download the app for Android
-                </Button>
+                <Link href="https://expo.dev/artifacts/eas/hsVQKKwxWXhaVKS8udapTT.apk">
+                  <Button className=" justify-start hover:bg-emerald-500 hover:-translate-y-2 transition-all hover:text-background flex gap-5 items-center mt-10  border-emerald-500 border rounded md:text-xl text-sm md:py-7 py-5">
+                    <FaCloudDownloadAlt size={30} />
+                    Download the app for Android
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
@@ -150,6 +158,30 @@ export default function Home() {
               always learning something new. Let&aposs connect and work together
               to make cool stuff happen!
             </h2>
+            <div>
+              <div className=" flex items-start md:justify-start justify-center md:gap-2 gap-5 mt-5 ">
+                <Link href="https://t.me/technerd">
+                  <FaTelegram
+                    size={20}
+                    className="  text-emerald-500 hover:-translate-y-2 transition-all md:h-8 md:w-12 h-5 w-5"
+                  />
+                </Link>
+
+                <Link href="https://x.com/TechNerd556">
+                  <FaXTwitter
+                    size={20}
+                    className="  text-emerald-500 hover:-translate-y-2 transition-all md:h-8 md:w-12 h-5 w-5"
+                  />
+                </Link>
+
+                <Link href="https://www.linkedin.com/in/yeabsra-ashebir-tech-nerd-8a3a80267/">
+                  <FaLinkedin
+                    size={20}
+                    className="  text-emerald-500 hover:-translate-y-2 transition-all md:h-8 md:w-12 h-5 w-5"
+                  />
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -174,10 +206,12 @@ export default function Home() {
           </h2>
 
           <div className=" flex justify-center items-center">
-            <Button className=" hover:bg-emerald-500 hover:-translate-y-2 transition-all hover:text-background flex gap-5 items-center mt-10  border-background bg-background text-emerald-500 border rounded  md:text-xl md:py-7 py-5">
-              <FaCloudDownloadAlt size={30} />
-              Download the app for Android
-            </Button>
+            <Link href="https://expo.dev/artifacts/eas/hsVQKKwxWXhaVKS8udapTT.apk">
+              <Button className=" hover:bg-emerald-500 hover:-translate-y-2 transition-all hover:text-background flex gap-5 items-center mt-10  border-background bg-background text-emerald-500 border rounded  md:text-xl md:py-7 py-5">
+                <FaCloudDownloadAlt size={30} />
+                Download the app for Android
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
@@ -196,30 +230,73 @@ export default function Home() {
           </h2>
         </div>
 
-        <div>
-          <div className=" flex items-center justify-center md:gap-5 gap-5 ">
-            <FaTelegram
-              size={20}
-              className="  text-emerald-500 hover:-translate-y-2 transition-all md:h-8 md:w-12 h-4 w-4"
-            />
+        <div className=" hidden md:block">
+          <div className=" flex items-start justify-start md:gap-2 gap-5 mt-5 ">
+            <Link href="https://t.me/technerd">
+              <FaTelegram
+                size={20}
+                className="  text-emerald-500 hover:-translate-y-2 transition-all md:h-8 md:w-12 h-2 w-2"
+              />
+            </Link>
 
-            <FaXTwitter
-              size={20}
-              className="  text-emerald-500 hover:-translate-y-2 transition-all md:h-8 md:w-12 h-4 w-4"
-            />
+            <Link href="https://x.com/TechNerd556">
+              <FaXTwitter
+                size={20}
+                className="  text-emerald-500 hover:-translate-y-2 transition-all md:h-8 md:w-12 h-2 w-2"
+              />
+            </Link>
 
-            <FaLinkedin
-              size={20}
-              className="  text-emerald-500 hover:-translate-y-2 transition-all md:h-8 md:w-12 h-4 w-4"
-            />
+            <Link href="https://www.linkedin.com/in/yeabsra-ashebir-tech-nerd-8a3a80267/">
+              <FaLinkedin
+                size={20}
+                className="  text-emerald-500 hover:-translate-y-2 transition-all md:h-8 md:w-12 h-2 w-2"
+              />
+            </Link>
           </div>
         </div>
 
-        <div className=" flex items-center gap-3">
-          <h2 className=" text-emerald-400 text-xs md:text-base font-normal">
-            Jul 2024
-          </h2>
+        <div className="  md:hidden">
+          <div className=" flex items-center justify-center  gap-5 ">
+            <Link href="https://t.me/technerd">
+              <FaTelegram
+                size={20}
+                className="  text-emerald-500 hover:-translate-y-2 transition-all md:h-8 md:w-12 h-5 w-5"
+              />
+            </Link>
+
+            <Link href="https://x.com/TechNerd556">
+              <FaXTwitter
+                size={20}
+                className="  text-emerald-500 hover:-translate-y-2 transition-all md:h-8 md:w-12 h-5 w-5"
+              />
+            </Link>
+
+            <Link href="https://www.linkedin.com/in/yeabsra-ashebir-tech-nerd-8a3a80267/">
+              <FaLinkedin
+                size={20}
+                className="  text-emerald-500 hover:-translate-y-2 transition-all md:h-8 md:w-12 h-5 w-5"
+              />
+            </Link>
+          </div>
         </div>
+
+        <div className=" md:flex items-center justify-center gap-3 hidden ">
+          <Link
+            href="https://t.me/selfmadecoder"
+            className=" text-emerald-400 text-xs md:text-base font-normal hover:text-emerald-700"
+          >
+            Powered by TechNerd - Jul 2024
+          </Link>
+        </div>
+      </div>
+
+      <div className=" flex items-center justify-center gap-3 -mt-5 mb-3 md:hidden">
+        <Link
+          href="https://t.me/selfmadecoder"
+          className=" text-emerald-400 text-xs md:text-base font-normal hover:text-emerald-700"
+        >
+          Powered by TechNerd - Jul 2024
+        </Link>
       </div>
     </div>
   );
