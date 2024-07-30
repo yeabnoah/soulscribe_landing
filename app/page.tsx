@@ -65,7 +65,7 @@ export default function Home() {
                   posts make the cut. Say goodbye to clutter and endless
                   scrolling; at No Junk, it&#39;s all quality, all the time.
                 </h2>
-                <Link href="">
+                <Link href="https://expo.dev/artifacts/eas/hBDwTd5Dj2iKx6NVjXTwZm.apk">
                   <Button className=" justify-start hover:bg-emerald-500 hover:-translate-y-2 transition-all hover:text-background flex gap-5 items-center mt-10  border-emerald-500 border rounded md:text-xl text-sm md:py-7 py-5">
                     <FaCloudDownloadAlt size={30} />
                     Download the app for Android
@@ -206,7 +206,7 @@ export default function Home() {
           </h2>
 
           <div className=" flex justify-center items-center">
-            <Link href="">
+            <Link href="https://expo.dev/artifacts/eas/hBDwTd5Dj2iKx6NVjXTwZm.apk">
               <Button className=" hover:bg-emerald-500 hover:-translate-y-2 transition-all hover:text-background flex gap-5 items-center mt-10  border-background bg-background text-emerald-500 border rounded  md:text-xl md:py-7 py-5">
                 <FaCloudDownloadAlt size={30} />
                 Download the app for Android
