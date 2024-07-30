@@ -56,6 +56,9 @@ export default function Home() {
         <div className=" md:flex md:flex-row mt-20 flex-col flex gap-10">
           <div className=" flex-1">
             <div className=" md:mt-28 flex justify-center items-center">
+              <h2 className=" text-emerald-500 my-5 md:text-2xl text-lg text-center md:text-start font-semibold">
+                coming Soon
+              </h2>
               <div className=" md:mx-10 mx-3 text-start md:text-6xl text-3xl font-bold text-emerald-500 md:w-[85%]  justify-center flex-col flex items-start">
                 Welcome to No Junk, Join us and consume organic shared Contents.
                 <h2 className=" mt-5 text-start md:text-xl text-sm font-light text-emerald-500 ">
