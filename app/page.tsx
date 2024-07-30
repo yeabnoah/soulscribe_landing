@@ -60,10 +60,10 @@ export default function Home() {
                 Welcome to No Junk, Join us and consume organic shared Contents.
                 <h2 className=" mt-5 text-start md:text-xl text-sm font-light text-emerald-500 ">
                   No Junk is your go-to platform for discovering and sharing the
-                  most valuable content from across all social media. We&aposve
+                  most valuable content from across all social media. We've
                   built a community where only the best and most interesting
                   posts make the cut. Say goodbye to clutter and endless
-                  scrolling; at No Junk, it&aposs all quality, all the time.
+                  scrolling; at No Junk, it's all quality, all the time.
                 </h2>
                 <Link href="https://expo.dev/artifacts/eas/hsVQKKwxWXhaVKS8udapTT.apk">
                   <Button className=" justify-start hover:bg-emerald-500 hover:-translate-y-2 transition-all hover:text-background flex gap-5 items-center mt-10  border-emerald-500 border rounded md:text-xl text-sm md:py-7 py-5">
@@ -91,8 +91,8 @@ export default function Home() {
             At No Junk, we believe in the power of great content, no matter
             where it comes from. Our platform allows you to discover and share
             the best posts from a wide range of social media platforms. Whether
-            you&aposre a fan of viral videos, insightful articles, or stunning
-            photos, you&aposll find it all here.
+            you're a fan of viral videos, insightful articles, or stunning
+            photos, you'll find it all here.
           </h2>
 
           <div className=" flex items-center justify-center gap-4 md:gap-8 mt-10">
@@ -150,13 +150,13 @@ export default function Home() {
             </h2>
 
             <h2 className=" md:mt-10 mt-5 text-center md:text-start font-light text-emerald-500 mx-auto text-sm md:text-xl">
-              👋 Hello! I&aposm Yeabsra, a web and mobile developer from
-              Ethiopia. I taught myself how to build websites and apps. I enjoy
-              using technology to solve problems and bring ideas to life.
-              I&aposm good at paying attention to small details and finding
-              solutions when things get tough. When I&aposm not coding, I&aposm
-              always learning something new. Let&aposs connect and work together
-              to make cool stuff happen!
+              👋 Hello! I'm Yeabsra, a web and mobile developer from Ethiopia. I
+              taught myself how to build websites and apps. I enjoy using
+              technology to solve problems and bring ideas to life. I'm good at
+              paying attention to small details and finding solutions when
+              things get tough. When I'm not coding, I'm always learning
+              something new. Let's connect and work together to make cool stuff
+              happen!
             </h2>
             <div>
               <div className=" flex items-start md:justify-start justify-center md:gap-2 gap-5 mt-5 ">
@@ -193,16 +193,15 @@ export default function Home() {
           </h2>
 
           <h2 className=" md:mt-10 md:w-[60%]  text-center font-light text-background mx-auto text-sm md:text-xl">
-            Let&aposs face it, social media is packed with endless posts, and it
-            can be tough to find the good stuff without getting lost in the
-            noise. We built No Junk because we wanted a place where you could
-            easily find and share the best content from all your favorite
-            platforms. Our goal is to make it simple for you to discover quality
-            posts, without having to wade through tons of fluff. Whether
-            you&aposre looking for something inspiring, funny, or just plain
-            interesting, No Junk is here to help you find the gems. We believe
-            that great content deserves to be seen, and we&aposre excited to
-            share it with you!
+            Let's face it, social media is packed with endless posts, and it can
+            be tough to find the good stuff without getting lost in the noise.
+            We built No Junk because we wanted a place where you could easily
+            find and share the best content from all your favorite platforms.
+            Our goal is to make it simple for you to discover quality posts,
+            without having to wade through tons of fluff. Whether you're looking
+            for something inspiring, funny, or just plain interesting, No Junk
+            is here to help you find the gems. We believe that great content
+            deserves to be seen, and we're excited to share it with you!
           </h2>
 
           <div className=" flex justify-center items-center">
