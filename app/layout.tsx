@@ -11,7 +11,7 @@ const fontSans = FontSans({
 
 // ******** you can change this metadata information with yours
 export const metadata: Metadata = {
-  title: "No Junk", // your title
+  title: "soulscribe", // your title
   description:
     "No Junk is your go-to platform for discovering and sharing the most valuable content from across all social media. We've built a community where only the best and most interesting posts make the cut. Say goodbye to clutter and endless scrolling; at No Junk, it's all quality, all the time.", // your description
 
@@ -35,7 +35,7 @@ export default function RootLayout({
       {/* You can use inter.className if you want Default Next Starter Like font */}
       <body
         className={cn(
-          "min-h-screen bg-background selection:bg-neutral-800 text-neutral-500 font-sans antialiased",
+          "min-h-screen bg-black selection:bg-neutral-800 text-neutral-500 font-sans antialiased",
           fontSans.variable
         )}
       >
