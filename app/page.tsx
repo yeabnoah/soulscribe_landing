@@ -55,7 +55,14 @@ export default function Home() {
 
         <div className=" md:flex md:flex-col flex-col flex justify-center items-center gap-10">
           <div className="">
-            <Image src="/app.png" height={500} width={600} alt="app" />
+            <Image src="/app.png" height={500} width={550} alt="app" />
+
+            <Link href="https://expo.dev/artifacts/eas/r6f2ihALuYzjKeBzMd6CHV.apk">
+              <Button className=" mx-auto hover hover:-translate-y-2 transition-all hover:text-black hover:bg-white flex gap-5 items-center mt-10 border-white text-white border rounded  md:text-xl md:py-7 py-5">
+                <FaCloudDownloadAlt size={30} />
+                Download the app for Android
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
@@ -66,7 +73,7 @@ export default function Home() {
             What is soulscribe ?
           </h2>
 
-          <h2 className=" md:mt-10 max-w-4xl text-center font-light text-background mx-auto md:text-2xl">
+          <h2 className=" md:mt-10 max-w-4xl text-center font-light text-background mx-auto md:text-2xl selection:text-white">
             SoulScribe is a mobile app that serves as a pocket cheat sheet for
             Bible verses, meticulously categorized and presented for various
             life situations. Whether you’re navigating relationships, managing
@@ -77,12 +84,12 @@ export default function Home() {
             reflect on and examine their lives through the wisdom of the Bible.
           </h2>
 
-          <Link href="https://expo.dev/artifacts/eas/r6f2ihALuYzjKeBzMd6CHV.apk">
+          {/* <Link href="https://expo.dev/artifacts/eas/r6f2ihALuYzjKeBzMd6CHV.apk">
             <Button className=" mx-auto hover hover:-translate-y-2 transition-all hover:text-white hover:bg-black flex gap-5 items-center mt-10  border-black text-black border rounded  md:text-xl md:py-7 py-5">
               <FaCloudDownloadAlt size={30} />
               Download the app for Android
             </Button>
-          </Link>
+          </Link> */}
         </div>
       </div>
 
@@ -146,7 +153,7 @@ export default function Home() {
             Why I Created soulscribe
           </h2>
 
-          <h2 className=" md:mt-10 md:w-[60%]  text-center font-light text-background mx-auto text-sm md:text-xl">
+          <h2 className=" md:mt-10 md:w-[60%]  text-center font-light text-background mx-auto text-sm md:text-xl selection:text-white">
             I created SoulScribe to offer a practical and accessible way for
             people to connect with Bible verses relevant to their daily lives
             and emotional needs. By categorizing and presenting these verses for
