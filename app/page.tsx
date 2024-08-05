@@ -53,9 +53,9 @@ export default function Home() {
           </div>
         </div>
 
-        <div className=" md:flex md:flex-col mt-20 flex-col flex justify-center items-center gap-10">
+        <div className=" md:flex md:flex-col flex-col flex justify-center items-center gap-10">
           <div className="">
-            <Image src="/app5.png" height={600} width={800} alt="app" />
+            <Image src="/app.png" height={500} width={600} alt="app" />
           </div>
         </div>
       </div>
